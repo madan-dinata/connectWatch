@@ -68,7 +68,7 @@ struct ContentView: View {
                     Button(action: {
                         // Action for the button
                     }) {
-                        Text("Button")
+                        Text("Next")
                             .foregroundColor(.white)
                             .padding()
                             .background(Color.blue)
