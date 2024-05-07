@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  AppleWatch Watch App
+//  watchApp Watch App
 //
-//  Created by Muhammad Ramadhan on 03/05/24.
+//  Created by Muhammad Ramadhan on 06/05/24.
 //
 
 import SwiftUI
@@ -10,7 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            Spacer()
             Button("Open Camera") {
                 
             }

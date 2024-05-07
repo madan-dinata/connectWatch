@@ -11,20 +11,19 @@
 		D02AD0F22BE4810A00CF3F25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AD0F12BE4810A00CF3F25 /* ContentView.swift */; };
 		D02AD0F42BE4810B00CF3F25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02AD0F32BE4810B00CF3F25 /* Assets.xcassets */; };
 		D02AD0F72BE4810B00CF3F25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02AD0F62BE4810B00CF3F25 /* Preview Assets.xcassets */; };
-		D02AD1072BE4938300CF3F25 /* AppleWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AD1062BE4938300CF3F25 /* AppleWatchApp.swift */; };
-		D02AD1092BE4938300CF3F25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AD1082BE4938300CF3F25 /* ContentView.swift */; };
-		D02AD10B2BE4938500CF3F25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02AD10A2BE4938500CF3F25 /* Assets.xcassets */; };
-		D02AD10E2BE4938500CF3F25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02AD10D2BE4938500CF3F25 /* Preview Assets.xcassets */; };
-		D02AD1112BE4938500CF3F25 /* AppleWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D02AD1042BE4938300CF3F25 /* AppleWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D0CBD2B62BE8E03E008CA05F /* watchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CBD2B52BE8E03E008CA05F /* watchAppApp.swift */; };
+		D0CBD2B82BE8E03E008CA05F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CBD2B72BE8E03E008CA05F /* ContentView.swift */; };
+		D0CBD2BA2BE8E040008CA05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CBD2B92BE8E040008CA05F /* Assets.xcassets */; };
+		D0CBD2BD2BE8E040008CA05F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CBD2BC2BE8E040008CA05F /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D02AD10F2BE4938500CF3F25 /* PBXContainerItemProxy */ = {
+		D0CBD2BE2BE8E040008CA05F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D02AD0E42BE4810A00CF3F25 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D02AD1032BE4938300CF3F25;
-			remoteInfo = "AppleWatch Watch App";
+			remoteGlobalIDString = D0CBD2B22BE8E03E008CA05F;
+			remoteInfo = "watchApp Watch App";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -35,7 +34,6 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				D02AD1112BE4938500CF3F25 /* AppleWatch Watch App.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -43,16 +41,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		D02AD0EC2BE4810A00CF3F25 /* connectWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = connectWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D02AD0EF2BE4810A00CF3F25 /* connectWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = connectWatchApp.swift; sourceTree = "<group>"; };
 		D02AD0F12BE4810A00CF3F25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D02AD0F32BE4810B00CF3F25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02AD0F62BE4810B00CF3F25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D02AD1042BE4938300CF3F25 /* AppleWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D02AD1062BE4938300CF3F25 /* AppleWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleWatchApp.swift; sourceTree = "<group>"; };
-		D02AD1082BE4938300CF3F25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		D02AD10A2BE4938500CF3F25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D02AD10D2BE4938500CF3F25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0CBD2B32BE8E03E008CA05F /* watchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "watchApp Watch App.app"; path = "/Users/madan/Documents/connectWatch/build/Debug-watchos/watchApp Watch App.app"; sourceTree = "<absolute>"; };
+		D0CBD2B52BE8E03E008CA05F /* watchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchAppApp.swift; sourceTree = "<group>"; };
+		D0CBD2B72BE8E03E008CA05F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0CBD2B92BE8E040008CA05F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0CBD2BC2BE8E040008CA05F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0CBD2C12BE8E040008CA05F /* connectWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = connectWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +61,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D02AD1012BE4938300CF3F25 /* Frameworks */ = {
+		D0CBD2B02BE8E03E008CA05F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -77,18 +75,9 @@
 			isa = PBXGroup;
 			children = (
 				D02AD0EE2BE4810A00CF3F25 /* connectWatch */,
-				D02AD1052BE4938300CF3F25 /* AppleWatch Watch App */,
-				D02AD0ED2BE4810A00CF3F25 /* Products */,
+				D0CBD2B42BE8E03E008CA05F /* watchApp Watch App */,
+				D0CBD2C12BE8E040008CA05F /* connectWatch.app */,
 			);
-			sourceTree = "<group>";
-		};
-		D02AD0ED2BE4810A00CF3F25 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				D02AD0EC2BE4810A00CF3F25 /* connectWatch.app */,
-				D02AD1042BE4938300CF3F25 /* AppleWatch Watch App.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		D02AD0EE2BE4810A00CF3F25 /* connectWatch */ = {
@@ -110,21 +99,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		D02AD1052BE4938300CF3F25 /* AppleWatch Watch App */ = {
+		D0CBD2B42BE8E03E008CA05F /* watchApp Watch App */ = {
 			isa = PBXGroup;
 			children = (
-				D02AD1062BE4938300CF3F25 /* AppleWatchApp.swift */,
-				D02AD1082BE4938300CF3F25 /* ContentView.swift */,
-				D02AD10A2BE4938500CF3F25 /* Assets.xcassets */,
-				D02AD10C2BE4938500CF3F25 /* Preview Content */,
+				D0CBD2B52BE8E03E008CA05F /* watchAppApp.swift */,
+				D0CBD2B72BE8E03E008CA05F /* ContentView.swift */,
+				D0CBD2B92BE8E040008CA05F /* Assets.xcassets */,
+				D0CBD2BB2BE8E040008CA05F /* Preview Content */,
 			);
-			path = "AppleWatch Watch App";
+			path = "watchApp Watch App";
 			sourceTree = "<group>";
 		};
-		D02AD10C2BE4938500CF3F25 /* Preview Content */ = {
+		D0CBD2BB2BE8E040008CA05F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				D02AD10D2BE4938500CF3F25 /* Preview Assets.xcassets */,
+				D0CBD2BC2BE8E040008CA05F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -144,28 +133,28 @@
 			buildRules = (
 			);
 			dependencies = (
-				D02AD1102BE4938500CF3F25 /* PBXTargetDependency */,
+				D0CBD2BF2BE8E040008CA05F /* PBXTargetDependency */,
 			);
 			name = connectWatch;
 			productName = connectWatch;
-			productReference = D02AD0EC2BE4810A00CF3F25 /* connectWatch.app */;
+			productReference = D0CBD2C12BE8E040008CA05F /* connectWatch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D02AD1032BE4938300CF3F25 /* AppleWatch Watch App */ = {
+		D0CBD2B22BE8E03E008CA05F /* watchApp Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D02AD1122BE4938500CF3F25 /* Build configuration list for PBXNativeTarget "AppleWatch Watch App" */;
+			buildConfigurationList = D0CBD2C22BE8E040008CA05F /* Build configuration list for PBXNativeTarget "watchApp Watch App" */;
 			buildPhases = (
-				D02AD1002BE4938300CF3F25 /* Sources */,
-				D02AD1012BE4938300CF3F25 /* Frameworks */,
-				D02AD1022BE4938300CF3F25 /* Resources */,
+				D0CBD2AF2BE8E03E008CA05F /* Sources */,
+				D0CBD2B02BE8E03E008CA05F /* Frameworks */,
+				D0CBD2B12BE8E03E008CA05F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "AppleWatch Watch App";
-			productName = "AppleWatch Watch App";
-			productReference = D02AD1042BE4938300CF3F25 /* AppleWatch Watch App.app */;
+			name = "watchApp Watch App";
+			productName = "watchApp Watch App";
+			productReference = D0CBD2B32BE8E03E008CA05F /* watchApp Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +170,7 @@
 					D02AD0EB2BE4810A00CF3F25 = {
 						CreatedOnToolsVersion = 15.3;
 					};
-					D02AD1032BE4938300CF3F25 = {
+					D0CBD2B22BE8E03E008CA05F = {
 						CreatedOnToolsVersion = 15.3;
 					};
 				};
@@ -195,12 +184,12 @@
 				Base,
 			);
 			mainGroup = D02AD0E32BE4810A00CF3F25;
-			productRefGroup = D02AD0ED2BE4810A00CF3F25 /* Products */;
+			productRefGroup = D02AD0E32BE4810A00CF3F25;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				D02AD0EB2BE4810A00CF3F25 /* connectWatch */,
-				D02AD1032BE4938300CF3F25 /* AppleWatch Watch App */,
+				D0CBD2B22BE8E03E008CA05F /* watchApp Watch App */,
 			);
 		};
 /* End PBXProject section */
@@ -215,12 +204,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D02AD1022BE4938300CF3F25 /* Resources */ = {
+		D0CBD2B12BE8E03E008CA05F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02AD10E2BE4938500CF3F25 /* Preview Assets.xcassets in Resources */,
-				D02AD10B2BE4938500CF3F25 /* Assets.xcassets in Resources */,
+				D0CBD2BD2BE8E040008CA05F /* Preview Assets.xcassets in Resources */,
+				D0CBD2BA2BE8E040008CA05F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,22 +225,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D02AD1002BE4938300CF3F25 /* Sources */ = {
+		D0CBD2AF2BE8E03E008CA05F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D02AD1092BE4938300CF3F25 /* ContentView.swift in Sources */,
-				D02AD1072BE4938300CF3F25 /* AppleWatchApp.swift in Sources */,
+				D0CBD2B82BE8E03E008CA05F /* ContentView.swift in Sources */,
+				D0CBD2B62BE8E03E008CA05F /* watchAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D02AD1102BE4938500CF3F25 /* PBXTargetDependency */ = {
+		D0CBD2BF2BE8E040008CA05F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D02AD1032BE4938300CF3F25 /* AppleWatch Watch App */;
-			targetProxy = D02AD10F2BE4938500CF3F25 /* PBXContainerItemProxy */;
+			target = D0CBD2B22BE8E03E008CA05F /* watchApp Watch App */;
+			targetProxy = D0CBD2BE2BE8E040008CA05F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -435,18 +424,18 @@
 			};
 			name = Release;
 		};
-		D02AD1132BE4938500CF3F25 /* Debug */ = {
+		D0CBD2C32BE8E040008CA05F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AppleWatch Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"watchApp Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = CFVFXJGJ26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = AppleWatch;
+				INFOPLIST_KEY_CFBundleDisplayName = watchApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.madan.connectWatch;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -465,18 +454,18 @@
 			};
 			name = Debug;
 		};
-		D02AD1142BE4938500CF3F25 /* Release */ = {
+		D0CBD2C42BE8E040008CA05F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"AppleWatch Watch App/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"watchApp Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = CFVFXJGJ26;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = AppleWatch;
+				INFOPLIST_KEY_CFBundleDisplayName = watchApp;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.madan.connectWatch;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -516,11 +505,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D02AD1122BE4938500CF3F25 /* Build configuration list for PBXNativeTarget "AppleWatch Watch App" */ = {
+		D0CBD2C22BE8E040008CA05F /* Build configuration list for PBXNativeTarget "watchApp Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D02AD1132BE4938500CF3F25 /* Debug */,
-				D02AD1142BE4938500CF3F25 /* Release */,
+				D0CBD2C32BE8E040008CA05F /* Debug */,
+				D0CBD2C42BE8E040008CA05F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
