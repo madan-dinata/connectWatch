@@ -11,6 +11,8 @@
 		D02AD0F22BE4810A00CF3F25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02AD0F12BE4810A00CF3F25 /* ContentView.swift */; };
 		D02AD0F42BE4810B00CF3F25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02AD0F32BE4810B00CF3F25 /* Assets.xcassets */; };
 		D02AD0F72BE4810B00CF3F25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D02AD0F62BE4810B00CF3F25 /* Preview Assets.xcassets */; };
+		D0874D8C2BEB390E0047D7E6 /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0874D8B2BEB390E0047D7E6 /* WatchConnectivityManager.swift */; };
+		D0874D8D2BEB390E0047D7E6 /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0874D8B2BEB390E0047D7E6 /* WatchConnectivityManager.swift */; };
 		D0CBD2B62BE8E03E008CA05F /* watchAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CBD2B52BE8E03E008CA05F /* watchAppApp.swift */; };
 		D0CBD2B82BE8E03E008CA05F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CBD2B72BE8E03E008CA05F /* ContentView.swift */; };
 		D0CBD2BA2BE8E040008CA05F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CBD2B92BE8E040008CA05F /* Assets.xcassets */; };
@@ -45,7 +47,8 @@
 		D02AD0F12BE4810A00CF3F25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D02AD0F32BE4810B00CF3F25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D02AD0F62BE4810B00CF3F25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		D0CBD2B32BE8E03E008CA05F /* watchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "watchApp Watch App.app"; path = "/Users/madan/Documents/connectWatch/build/Debug-watchos/watchApp Watch App.app"; sourceTree = "<absolute>"; };
+		D02EB1922BE9C315005711AD /* watchApp Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchApp Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0874D8B2BEB390E0047D7E6 /* WatchConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityManager.swift; sourceTree = "<group>"; };
 		D0CBD2B52BE8E03E008CA05F /* watchAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchAppApp.swift; sourceTree = "<group>"; };
 		D0CBD2B72BE8E03E008CA05F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0CBD2B92BE8E040008CA05F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -74,9 +77,11 @@
 		D02AD0E32BE4810A00CF3F25 = {
 			isa = PBXGroup;
 			children = (
+				D0874D8A2BEB38D30047D7E6 /* Shared */,
 				D02AD0EE2BE4810A00CF3F25 /* connectWatch */,
 				D0CBD2B42BE8E03E008CA05F /* watchApp Watch App */,
 				D0CBD2C12BE8E040008CA05F /* connectWatch.app */,
+				D02EB1922BE9C315005711AD /* watchApp Watch App.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +102,14 @@
 				D02AD0F62BE4810B00CF3F25 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0874D8A2BEB38D30047D7E6 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D0874D8B2BEB390E0047D7E6 /* WatchConnectivityManager.swift */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 		D0CBD2B42BE8E03E008CA05F /* watchApp Watch App */ = {
@@ -154,7 +167,7 @@
 			);
 			name = "watchApp Watch App";
 			productName = "watchApp Watch App";
-			productReference = D0CBD2B32BE8E03E008CA05F /* watchApp Watch App.app */;
+			productReference = D02EB1922BE9C315005711AD /* watchApp Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -221,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D02AD0F22BE4810A00CF3F25 /* ContentView.swift in Sources */,
+				D0874D8C2BEB390E0047D7E6 /* WatchConnectivityManager.swift in Sources */,
 				D02AD0F02BE4810A00CF3F25 /* connectWatchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0CBD2B82BE8E03E008CA05F /* ContentView.swift in Sources */,
+				D0874D8D2BEB390E0047D7E6 /* WatchConnectivityManager.swift in Sources */,
 				D0CBD2B62BE8E03E008CA05F /* watchAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
